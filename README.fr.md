@@ -4,6 +4,10 @@
 
 **Gérez votre guilde de partout. Rejoignez-la en Azeroth quand vous rentrez.**
 
+### [Découvrir le jeu sur le site : guildmaster-game.pages.dev](https://guildmaster-game.pages.dev/?lang=fr)
+
+**[Télécharger la 0.5.0-alpha.1](https://github.com/Victor-Hanon/guildmaster/releases/latest)** · **[Site](https://guildmaster-game.pages.dev/?lang=fr)** · **[Discord](https://discord.gg/tGQMVByaH7)** · **[Soutenir sur Ko-fi](https://ko-fi.com/ragolk)**
+
 Guildmaster fait vivre, sur votre ordinateur, un monde World of Warcraft 3.3.5a hors ligne peuplé d'aventuriers autonomes. Ils
 naissent, progressent et meurent ; vous les recrutez dans votre guilde, vous les envoyez explorer, récolter et chasser depuis l'appli
 Guildmaster (sur votre PC ou votre téléphone), et vous vous connectez au jeu quand vous voulez combattre à leurs côtés.
