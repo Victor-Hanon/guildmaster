@@ -1,12 +1,12 @@
 # Third-party notices
 
-This file lists the third-party software shipped in the Guildmaster Windows installer, **Guildmaster-Setup-0.5.0-alpha.1.exe** (alpha), with its licence and the file that holds the licence text. Paths are relative to the installation folder. Licence texts are in the [licenses](licenses/) folder of this repository.
+This file lists the third-party software shipped in the Guildmaster Windows installer, **Guildmaster-Setup-0.5.1-alpha.1.exe** (alpha), with its licence and the file that holds the licence text. Paths are relative to the installation folder. Licence texts are in the [licenses](licenses/) folder of this repository.
 
-Composition of 0.5.0-alpha.1: engine = mod-playerbots modified by Guildmaster, revision `af5143d9` (the SHA-256 of worldserver.exe is written in `runtime\version.json` when the installer is built), mod-wowquarium revision `6980d0c`, AzerothCore revision `06234df3d5ab`; API, app and launcher: revision `4396f59` of Guildmaster. The exact references of each build are written in `runtime\version.json`.
+Composition of 0.5.1-alpha.1: engine = mod-playerbots modified by Guildmaster, revision `b7d9ddf2` (the SHA-256 of worldserver.exe is written in `runtime\version.json` when the installer is built), mod-wowquarium revision `6980d0c`, AzerothCore revision `06234df3d5ab`; API, app and launcher: the Guildmaster revision written in `runtime\version.json` (`api`, `distribution`). The exact references of each build are written in `runtime\version.json`.
 
 ## Guildmaster's own code
 
-Guildmaster's own code (the API under `runtime\api`, the app under `runtime\app`, the launcher `Guildmaster.exe`, the installer and the tools under `runtime\tools`) is Copyright 2026 The Guildmaster authors and is licensed under the **GNU Affero General Public License, version 3 or (at your option) any later version** (SPDX: `AGPL-3.0-or-later`). The full text is in `licenses/AGPL-3.0.txt`. It comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law (sections 15 and 16 of the licence). The API and the tools are shipped as readable source code; the app is shipped as a built bundle, and its source is attached to the same release as `Guildmaster-0.5.0-alpha.1-source.tar.gz` (section 1 below).
+Guildmaster's own code (the API under `runtime\api`, the app under `runtime\app`, the launcher `Guildmaster.exe`, the installer and the tools under `runtime\tools`) is Copyright 2026 The Guildmaster authors and is licensed under the **GNU Affero General Public License, version 3 or (at your option) any later version** (SPDX: `AGPL-3.0-or-later`). The full text is in `licenses/AGPL-3.0.txt`. It comes with ABSOLUTELY NO WARRANTY, to the extent permitted by law (sections 15 and 16 of the licence). The API and the tools are shipped as readable source code; the app is shipped as a built bundle, and its source is published with the installer (section 1 below, `Guildmaster-0.5.1-alpha.1-source.tar.gz`).
 
 The changes made by Guildmaster to mod-playerbots are part of that module and are distributed under its licence (GNU GPL v2 or later, section 1). The in-game addons are under the MIT licence (section 5 ter).
 
@@ -17,7 +17,7 @@ These programs are compiled by the Guildmaster team from the following sources. 
 | Component | Version | Licence | Licence text |
 |---|---|---|---|
 | AzerothCore, `Playerbot` branch of https://github.com/mod-playerbots/azerothcore-wotlk | revision `06234df3d5ab` (11 September 2026), unmodified | GNU GPL v2 or later for most files; **GNU AGPL v3 or later** for some files (see below) | `licenses/GPL-2.0.txt`, `licenses/AGPL-3.0.txt` |
-| mod-playerbots, https://github.com/mod-playerbots/mod-playerbots, modified by Guildmaster | revision `af5143d9`, based on upstream revision `b6696bdb` | GNU GPL v2 or later | `licenses/GPL-2.0.txt` |
+| mod-playerbots, https://github.com/mod-playerbots/mod-playerbots, modified by Guildmaster | revision `b7d9ddf2` (28 October 2026), based on upstream revision `b6696bdb` | GNU GPL v2 or later | `licenses/GPL-2.0.txt` |
 | mod-wowquarium, module written alongside Guildmaster | revision `6980d0c` (23 October 2026) | GNU GPL v2 or later (it is linked into the server) | `licenses/GPL-2.0.txt` |
 
 Files under the GNU AGPL v3 or later in AzerothCore revision `06234df3d5ab` include `src/server/game/Entities/Creature/Trainer.cpp`, `src/server/game/Server/Packets/NPCPackets.cpp` and the files of `src/server/game/TC9Sidecar/` (15 compiled files carry an AGPL header in that revision: 9 in `TC9Sidecar`, 2 in `Entities/Creature`, 2 in `Server/Packets`, 1 in `scripts/EasternKingdoms`, 1 in `scripts/Kalimdor`; one more AGPL file, `deps/acore/joiner`, is a build helper). Both licence texts are therefore provided with the server.
@@ -49,11 +49,11 @@ Libraries loaded by the server from the same folder:
 `worldserver.exe` and `authserver.exe` are distributed in compiled form. Their complete corresponding source code is:
 
 - AzerothCore, `Playerbot` branch of mod-playerbots/azerothcore-wotlk, revision `06234df3d5ab`;
-- mod-playerbots as modified by Guildmaster, revision `af5143d9`;
+- mod-playerbots as modified by Guildmaster, revision `b7d9ddf2` (`worldserver.exe` was compiled from revision `841295b9`; the two revisions differ only by one source comment, reworded before publication);
 - mod-wowquarium, revision `6980d0c`;
 - the build configuration used for this release.
 
-Where to get it: on the release page from which this installer is downloaded (the release of version `0.5.0-alpha.1` in the public Guildmaster distribution repository on GitHub), as the file `Guildmaster-0.5.0-alpha.1-server-source.tar.gz`, published at the same time as the installer and listed with its SHA-256 in the `checksums.sha256` file of the same release. That archive holds the three source trees above at their exact revisions (without version-control history) and the build configuration (`BUILD.md`). The source of Guildmaster's own programs (API, app, launcher, installer, runtime tools, in-game addons) at the revision of this build (`4396f59`) is the file `Guildmaster-0.5.0-alpha.1-source.tar.gz` of the same release, also listed in `checksums.sha256` (contents in its `SOURCE-REVISIONS.txt`). This is equivalent access to the source from the same place as the installer (GNU GPL v2 section 3; GNU AGPL v3 section 6 d). The source of MySQL 8.0.45 (section 2) is Oracle's official source archive of that version; it is available on request through the support channel, under the same conditions as below.
+Where to get it: on the release page from which this installer is downloaded (the release of version `0.5.1-alpha.1` in the public Guildmaster distribution repository on GitHub), as the file `Guildmaster-0.5.1-alpha.1-server-source.tar.gz`, published at the same time as the installer and listed with its SHA-256 in the `checksums.sha256` file of the same release. That archive holds the three source trees above at their exact revisions (without version-control history) and the build configuration (`BUILD.md`). This is equivalent access to the source from the same place as the installer (GNU GPL v2 section 3; GNU AGPL v3 section 6 d). The same release also holds the source of Guildmaster's API, app, launcher, installer, tools and addons at the revision of this build (`Guildmaster-0.5.1-alpha.1-source.tar.gz`) and the source of MySQL 8.0.45 (section 2).
 
 If you received this installer from anywhere else, or if the release page is no longer available, you may ask for the complete corresponding source through the support channel listed in the README of the distribution repository; it will be provided at no more than the cost of providing it, for at least three years after the last distribution of this version.
 
@@ -64,6 +64,8 @@ If you received this installer from anywhere else, or if the release page is no 
 | Component | Version | Licence | Licence text |
 |---|---|---|---|
 | MySQL Community Server (portable files) | 8.0.45 | GNU GPL v2 with Oracle's additional permissions and the Universal FOSS Exception 1.0 | `runtime\database\mysql\LICENSE` (Oracle's licensing information, including the notices of the third-party software inside MySQL) |
+
+Source code of MySQL (GNU GPL v2): the release page from which this installer is downloaded holds Oracle's official source archive of MySQL Community Server 8.0.45, `mysql-8.0.45.tar.gz`, unmodified (484 793 877 bytes, MD5 `7d8a44d18b8b75403e2223ecf04cfe05` as published by Oracle, SHA-256 `b435f22e658c8fc93b81698fa34b9a56325a304b3f3dff87f27fb674c90abbcb`). The portable files shipped here are a subset of Oracle's Windows archive of that version (the programs and libraries a Guildmaster world needs); their programs and libraries are unmodified and keep Oracle's signature. If the release page is no longer available, the offer of section 1 applies to this source as well.
 
 `runtime\database\graine` is the seed of a new world. It holds database structure and reference data from AzerothCore and mod-playerbots (GNU GPL v2 or later, see above) and the Guildmaster tables. It contains no player data.
 
@@ -118,7 +120,7 @@ The app icons were made for Guildmaster. Item icons shown by the app are not shi
 | Guildmaster (guild management in game, Guildmaster protocol V1; formerly named GuildmasterRoF) | 1.3.0 | MIT | `runtime\addons\Guildmaster\LICENSE` |
 | GuildmasterCommand (order bar for companions; its "Sur moi" summon order works only inside a five-player dungeon) | 0.4.0 | MIT | `runtime\addons\GuildmasterCommand\LICENSE` |
 
-These two addons are written by the Guildmaster team and contain no third-party code. Their `Media` folders hold textures drawn for the project (circle, rings, shadow, an icon sheet made from the project's own symbols) and the Figtree GM font with its licence (section 5 bis). The launcher removes the old `GuildmasterRoF` folder (after a backup) when it installs the renamed addon. The launcher copies them into `Interface\AddOns` of the player's own WoW client; `runtime\addons\SOURCE.json` records their origin and the SHA-256 of every file.
+These two addons are written by the Guildmaster team and contain no third-party code. Their `Media` folders hold textures drawn for the project (circle, rings, shadow, an icon sheet made from the project's own symbols) and the Figtree GM font with its licence (section 5 bis). The launcher removes the old `GuildmasterRoF` folder (after a backup) when it installs the renamed addon. The launcher copies them into `Interface\AddOns` of the player's own WoW client (see the FAQ); `runtime\addons\SOURCE.json` records their origin and the SHA-256 of every file.
 
 ## 6. Data extracted on your computer from your own client (not shipped)
 

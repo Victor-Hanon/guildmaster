@@ -6,7 +6,7 @@
 
 ### [Découvrir le jeu sur le site : guildmaster-game.pages.dev](https://guildmaster-game.pages.dev/?lang=fr)
 
-**[⬇ Télécharger l'installeur (Windows, 197 Mo)](https://github.com/Victor-Hanon/guildmaster/releases/download/v0.5.0-alpha.1/Guildmaster-Setup-0.5.0-alpha.1.exe)** · **[Site](https://guildmaster-game.pages.dev/?lang=fr)** · **[Discord](https://discord.gg/tGQMVByaH7)** · **[Soutenir sur Ko-fi](https://ko-fi.com/ragolk)**
+**[⬇ Télécharger l'installeur (Windows, 197 Mo)](https://github.com/Victor-Hanon/guildmaster/releases/download/v0.5.1-alpha.1/Guildmaster-Setup-0.5.1-alpha.1.exe)** · **[Site](https://guildmaster-game.pages.dev/?lang=fr)** · **[Discord](https://discord.gg/tGQMVByaH7)** · **[Soutenir sur Ko-fi](https://ko-fi.com/ragolk)**
 
 Guildmaster fait vivre, sur votre ordinateur, un monde World of Warcraft 3.3.5a hors ligne peuplé d'aventuriers autonomes. Ils
 naissent, progressent et meurent ; vous les recrutez dans votre guilde, vous les envoyez explorer, récolter et chasser depuis l'appli

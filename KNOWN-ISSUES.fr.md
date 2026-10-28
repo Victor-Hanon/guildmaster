@@ -2,14 +2,14 @@
 
 [English version](KNOWN-ISSUES.md) · [Retour au README](README.fr.md)
 
-Guildmaster 0.5.0-alpha.1. Les défauts et limites que nous connaissons dans cette version. Si vous rencontrez autre chose, signalez-le
+Guildmaster 0.5.1-alpha.1. Les défauts et limites que nous connaissons dans cette version. Si vous rencontrez autre chose, signalez-le
 dans le forum des bugs du [Discord](https://discord.gg/tGQMVByaH7) (le bouton « Signaler un bug » du lanceur prépare le rapport) ou
 ouvrez un [ticket](https://github.com/Victor-Hanon/guildmaster/issues).
 
 ## Installation et lanceur
 
 - **Windows seulement.** Windows 10 ou 11, 64 bits (essayé sur Windows 11). Pas de version pour Mac ni pour Linux.
-- **Client anglais pas encore testé.** La 0.5.0-alpha.1 est testée avec le client français (frFR) ; le client anglais (enUS) est
+- **Client anglais pas encore testé.** La 0.5.1-alpha.1 est testée avec le client français (frFR) ; le client anglais (enUS) est
   prévu mais n'a pas été essayé.
 - **Première création du monde longue** : de 25 à 50 minutes environ selon le PC, une seule fois ; les démarrages suivants prennent
   environ 1 minute. Laissez le PC allumé, hors veille. Prévoyez environ 10 Go libres et 16 Go de mémoire, dont environ 6 Go libres
@@ -22,9 +22,10 @@ ouvrez un [ticket](https://github.com/Victor-Hanon/guildmaster/issues).
 ## En jeu
 
 - **« Sur moi »** ne fonctionne qu'en donjon à cinq ; ni en raid, ni en champ de bataille, ni en arène.
-- **Un de vos personnages emmené dans une autre implantation n'est pas joué par l'IA.** Si vous déconnectez un personnage dans la
-  taverne d'une autre implantation de votre guilde, l'appli l'affiche « loin de son implantation » et l'IA ne le reprend pas. En
-  attendant un correctif : ramenez-le à la taverne de sa propre implantation et déconnectez-le là.
+- **Un de vos personnages dans une autre implantation.** Depuis la 0.5.1, un de vos personnages appartient à l'implantation dont la
+  taverne garde sa pierre de foyer, et « S'installer ici », sur sa fiche dans l'appli, le rattache à l'implantation dont il occupe la
+  taverne. Si l'appli l'affiche encore « loin de son implantation », elle dit pourquoi ; sinon, ramenez-le à la taverne de sa propre
+  implantation et déconnectez-le là.
 
 ## Pas encore disponible
 
