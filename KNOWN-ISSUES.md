@@ -2,16 +2,17 @@
 
 [Version française](KNOWN-ISSUES.fr.md) · [Back to the README](README.md)
 
-Guildmaster 0.6.0-alpha.4. Defects and limitations we know of in this version. If you hit something that is not listed, please
+Guildmaster 0.6.0-alpha.5. Defects and limitations we know of in this version. If you hit something that is not listed, please
 report it in the bug forum of the [Discord](https://discord.gg/tGQMVByaH7) (the launcher's "Report a bug" button prepares the
 report) or open an [issue](https://github.com/Victor-Hanon/guildmaster/issues).
 
 ## Installation and launcher
 
 - **Windows only.** 64-bit Windows 10 or 11 (tried on Windows 11). No Mac or Linux version.
-- **English client not tested yet.** 0.6.0-alpha.4 is tested with the French client (frFR); the English client (enUS) is planned
+- **English client not tested yet.** 0.6.0-alpha.5 is tested with the French client (frFR); the English client (enUS) is planned
   but has not been tried.
-- **The first world creation is long**: about 25 to 50 minutes depending on the PC, once only; later starts take about 1 minute.
+- **The first world creation is long**: about 25 to 50 minutes depending on the PC, more than an hour on a slower PC, once only; later starts take
+  about 1 minute (up to about 10 minutes on a slower PC). Do not close the launcher during the creation.
   Keep the PC on, not asleep. Allow about 10 GB free and 16 GB of memory, with about 6 GB free for the first start: close heavy
   programs before you start the creation.
 - **Unsigned installer.** Windows may show "Windows protected your PC": click "More info", then "Run anyway", only after checking
